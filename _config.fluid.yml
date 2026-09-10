@@ -385,12 +385,8 @@ navbar:
     - { key: "分类", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "标签", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "笔记", link: "/notes/", icon: "iconfont icon-book" }
-    - { key: "项目", link: "/projects/", icon: "iconfont icon-code" }
-    - { key: "简历", link: "/resume/", icon: "iconfont icon-briefcase" }
-    - { key: "留言板", link: "/guestbook/", icon: "iconfont icon-comment" }
     - { key: "收藏", link: "/favorites/", icon: "iconfont icon-bookmark-fill" }
     - { key: "关于", link: "/about/", icon: "iconfont icon-user-fill" }
-    - { key: "RSS", link: "/atom.xml", icon: "iconfont icon-rss" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
