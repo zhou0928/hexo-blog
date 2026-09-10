@@ -1,0 +1,54 @@
+/* Notes: minimal directory-style list. Loaded via custom_css in _config.fluid.yml. */
+
+:root {
+  --notes-accent: #2f4154;
+  --notes-border: #e9ecef;
+  --notes-text: #333c44;
+  --notes-muted: #808a94;
+}
+
+/* Lists are wrapped in .notes-list by scripts/gen-notes-index.mjs. */
+.notes-list {
+  margin: 4px 0 28px;
+}
+
+.notes-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.notes-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--notes-border);
+  line-height: 1.7;
+}
+
+.notes-list li:last-child {
+  border-bottom: none;
+}
+
+.notes-list a {
+  color: var(--notes-text);
+  text-decoration: none;
+}
+
+.notes-list a:hover {
+  color: var(--notes-accent);
+  text-decoration: underline;
+}
+
+.note-tags {
+  font-size: 12px;
+  color: var(--notes-muted);
+  margin-left: 8px;
+  font-weight: 400;
+}
+
+/* --- dark mode (Fluid sets data-user-color-scheme on <html>) --- */
+[data-user-color-scheme="dark"] {
+  --notes-accent: #8fb2d4;
+  --notes-border: #33373c;
+  --notes-text: #d7d9dc;
+  --notes-muted: #9aa0a6;
+}
